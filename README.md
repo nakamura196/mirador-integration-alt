@@ -13,16 +13,7 @@ You will likely need to have at least the following dependencies available in yo
 
 ### Webpack
 
-See `./webpack` for a basic webpack setup for Mirador 3 + a plugin.
+See `webpack.config.js` for a basic webpack setup for Mirador 3 + a plugin.
 
 ```sh
 npm run webpack
-```
-
-### Parcel
-
-See `./parcel`, but essentially it is just an html file referencing the JavaScript.
-
-```sh
-npm run parcel
-```
