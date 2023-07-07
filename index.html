@@ -8,7 +8,7 @@
     <div id="demo"></div>
     <script src="dist/main.js"></script>
     <script>
-      const {Mirador, miradorImageToolsPlugin} = integration
+      const {Mirador, miradorImageToolsPlugin, MiradorCopyWindowPlugin} = integration
       const config = {
         id: "demo",
         windows: [
@@ -19,7 +19,7 @@
           },
         ]
       };
-      Mirador.viewer(config, [...miradorImageToolsPlugin]);
+      Mirador.viewer(config, [miradorImageToolsPlugin, MiradorCopyWindowPlugin]);
     </script>
   </body>
 </html>
