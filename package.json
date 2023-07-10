@@ -14,6 +14,7 @@
     "@blueprintjs/icons": "^5.0.0",
     "css-loader": "^6.8.1",
     "mirador": "^3.3.0",
+    "mirador-compare-plugin": "^0.1.1",
     "mirador-copy-window-plugin": "^0.13.0",
     "mirador-image-tools": "^0.11.0",
     "parcel-bundler": "^1.12.4",
